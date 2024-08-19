@@ -14,24 +14,7 @@
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
     >
-      <a-text
-        value="中央公園位置"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 24.187811; longitude: 120.653576;"
-      ></a-text>
-	  <a-text
-        value="台中火車站位置"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 24.137821; longitude: 120.686692;"
-      ></a-text>
-	  <a-text
-        value="文心崇德捷運站位置"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 24.172277; longitude: 120.684851;"
-      ></a-text>
+      
 	  <a-text
         value="ikea位置"
         look-at="[gps-camera]"
@@ -39,6 +22,18 @@
         gps-entity-place="latitude: 24.147334; longitude: 120.642848;"
       ></a-text>
       <a-camera gps-camera rotation-reader> </a-camera>
+    </a-scene>
+	<a-scene
+      vr-mode-ui="enabled: false"
+      arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
+    >
+      <a-text
+        value="中央公園位置"
+        look-at="[gps-camera]"
+        scale="120 120 120"
+        gps-entity-place="latitude: 24.187811; longitude: 120.653576;"
+      ></a-text>
+	  
     </a-scene>
   </body>
 </html>
